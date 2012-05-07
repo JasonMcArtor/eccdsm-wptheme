@@ -1,0 +1,566 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Evangelical Covenant Church
+Description: Created for ECC by Thompson Design
+Version: 1.2
+Author: Wade Thompson
+Author URI: http://www.wthompsondesign.com/
+*/
+
+#print-logo {
+	display: none;
+	}
+
+/*---------------------------------------------------------------------------- [ BASIC STYLES ] ---*/
+
+* { 
+	margin: 0; 
+	padding: 0; 
+	}
+
+.clear {
+	clear: both; 
+	}
+
+body {
+	text-align: center; 
+	background: #a19376 url(images/global/BodyBackground.jpg) no-repeat fixed top;
+	padding: 25px 0;
+	line-height: 1.65em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+	
+p {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 20px;
+	color: #666;
+	}
+	
+h2 {
+	color: #648114;
+	font-size: 24px;
+	margin-bottom: 24px;
+	}
+	
+h3 {
+	color: #654d36;
+	font-size: 20px;
+	}	
+	
+h4 {
+	font-size: 18px;
+	color: #648114;
+	}
+	
+h5 {
+	font-size: 16px;
+	color: #654d36;
+	}
+	
+h6 {
+	font-size: 14px;
+	color: #648114;
+	}
+	
+	
+a:link, a:visited {
+	color: #648114;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #654d36;
+	text-decoration: none;
+	}
+	
+* :focus { outline: 0; }
+	
+strong {
+	color: #654d36;
+	}
+	
+em {
+	font-weight: normal;
+	}
+	
+
+	
+/*---------------------------------------------------------------------------- [ EVENT LIST ] ---*/
+
+.dbem_events_list {
+	font-size: 14px;
+	margin: 20px 0;
+	}
+	
+.dbem_events_list li {
+	list-style: none;
+	line-height: 1.75em;
+	padding: 3px 10px;
+	font-weight: bold;
+	color: #654d36;
+	}
+	
+.dbem_events_list li a {
+	color: #654d36;
+	font-weight: normal;
+	text-decoration: none;
+	}
+	
+.dbem_events_list li a:hover {
+	color: #648114;
+	}
+	
+	
+.dbem_events_list li.even {
+	list-style: none;
+	line-height: 1.75em;
+	background-color: #DEDAD2;
+	}
+	
+#content .dbem_events_list {
+	font-size: 10px;
+	margin: 20px 0;
+	color: #654d36;
+	}
+	
+#submenu .dbem_events_list {
+	font-size: 10px;
+	margin: 20px 0;
+	}
+	
+#submenu .dbem_events_list li a {
+	font-size: 10px;
+	}
+	
+#submenu .dbem_events_list li.even {
+	list-style: none;
+	line-height: 12px;
+	background: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+/*---------------------------------------------------------------------------- [ HEADER ] ---*/
+
+
+#main {
+	text-align: left;
+	margin: 0 auto;
+	width: 968px;
+	}
+	
+#header {
+	clear:both;
+	background: url(images/global/mastBg.png) no-repeat;
+	width: 968px;
+	}
+
+#logo { 
+	width:286px;
+	height:121px;
+	display:block;
+	border-top: none;
+	float: left;
+	background: url(images/global/ECC-Logo.png) no-repeat;
+	margin: 20px 0 30px 20px;
+	}
+	
+*html #logo {  /* IE6 HACK */
+	width:286px;
+	height:121px;
+	display:block;
+	border-top: none;
+	float: left;
+	background: url(images/global/ECC-Logo.png) no-repeat;
+	margin: 20px 0 30px 10px;
+	}
+
+#logo a { 
+	display:block;
+	text-indent:-9999px;
+	width:286px;
+	height:121px; 
+	}
+	
+#menu {
+	float: right;
+	margin: 95px 20px 0 0;
+	text-align: right;
+	text-transform: lowercase;
+	}
+	
+#menu li {
+	display: inline;
+	padding-left: 28px;
+	list-style: none;
+	}
+	
+#menu li a {
+	color: #beb6a5;
+	text-decoration: none;
+	font-size: 14px;
+	}
+	
+#menu li a:hover {
+	color: #648114;
+	}
+	
+#menu li.current_page_parent a,
+#menu li.current_page_ancestor a,
+#menu li.current_page_item a {
+	color: #648114;
+	}
+
+	
+	
+	
+	
+	
+/*---------------------------------------------------------------------------- [ HOMEPAGE FEATURED AREA ] ---*/
+	
+	
+#featureContainer {
+	background: url(images/global/pageBg.png) repeat-y;
+	}
+	
+#features {
+	border: 1px solid #000;
+	margin: 0 auto;
+	width: 930px;
+	}
+	
+#features img {
+	float: right;
+	border: 0;
+	}
+
+#featuredSlides img {
+	float: left;
+	}
+
+#featuredMessage {
+	float: right;
+	}
+	
+#featuredBtns {
+	width: 935px;
+	margin-left: 18px;
+	text-align: center;
+	padding-bottom: 30px;
+	}
+	
+#featuredBtns li {
+	float: left;
+	list-style: none;
+	border-right: 2px solid #3b3b3b;
+	}
+	
+#featuredBtns li.last {
+	float: left;
+	list-style: none;
+	border-right: 1px solid #000;
+	}
+	
+#featuredBtns li a {
+	display: block;
+	font-size: 24px;
+	color: #fff;
+	background: #000000 url(images/3buttons/B1Btn.jpg) no-repeat;
+	width: 309px;
+	line-height: 86px;
+	text-decoration: none;
+	}
+	
+#featuredBtns li a.two {
+	background: #000000 url(images/3buttons/B2Btn.jpg) no-repeat;
+	}
+	
+#featuredBtns li a.three {
+	background: #000000 url(images/3buttons/B3Btn.jpg) no-repeat;
+	}
+	
+#featuredBtns li a:hover {
+	color: #beb6a5;
+	}
+	
+
+	
+/*---------------------------------------------------------------------------- [ SECTION TITLE BAR ] ---*/
+	
+#sectionTitleContainer {
+	background: url(images/global/pageBg.png) repeat-y;
+	}
+
+h1#sectionTitle {
+	width: 930px;
+	height: 53px;
+	margin: 0 0 0 19px;
+	padding: 0 0 0 15px;
+	background: url(images/global/sectionTitleBar.png) no-repeat;
+	color: #fff;
+	line-height: 48px;
+	text-align: left;
+	}
+	
+	
+
+
+/*---------------------------------------------------------------------------- [ CONTENT AREA ] ---*/
+	
+
+#contentContainer {
+	background: url(images/global/pageBg.png) repeat-y;
+	padding: 25px 0;
+	}
+	
+#content {
+	float: left;
+	margin: 0 30px 0 20px;
+	width: 590px;
+	}
+	
+*html #content { /* IE6 HACK */
+	float: left;
+	margin: 0 35px 0 10px;
+	width: 583px;
+	}
+	
+#content ul {
+	margin: 0 0 25px 25px;
+	}
+	
+#content ul li {
+	font-size: 14px;
+	color: #666;
+	}
+	
+	
+	
+/*---------------------------------------------------------------------------- [ COMMENT AREA ] ---*/
+	
+	
+
+.commentlist {
+	
+	}
+	
+.commentlist li {
+	list-style: none;
+	border: 1px solid #654d36;
+	background: #fff;
+	padding: 10px;
+	margin: 10px 0;
+	}
+	
+.commentlist p {
+	font-size: 12px;
+	margin-bottom: 10px;
+	}
+	
+.comment-meta.commentmetadata {
+	margin-bottom: 10px;
+	}
+	
+cite.fn {
+	font-size: 14px;
+	font-weight: bold;
+	color: #564d36;
+	}
+
+.says {
+	font-size: 12px;
+	color: #564d36;
+	}
+	
+	
+	
+	
+	
+/*---------------------------------------------------------------------------- [ SIDEBAR AREA ] ---*/
+	
+
+#sidebar {
+	float: left;
+	width: 311px;
+	}
+	
+#submenuTitle, .widgettitle {
+	background: #648114 url(images/sidebar/submenuTitleBg.jpg) no-repeat;
+	line-height: 40px;
+	border-bottom: 1px solid #fcfaf2;
+	padding-left: 10px;
+	font-size: 18px;
+	color: #fcfaf2;
+	width: 300px;
+	}
+
+#submenu .widgettitle {
+	color: #fcfaf2;
+	margin: -10px 0 0 -10px;
+	}
+
+#submenu {
+	min-height: 326px;
+	background: url(images/sidebar/subMenuBg.png) repeat-x;
+	width: 310px;
+	padding: 10px 0 30px 0;
+	}
+	
+#submenu li {
+	line-height: 1.75em;
+	list-style: none;
+	margin: 0 10px 0 10px;
+	
+	}
+	
+#submenu li a {
+	font-size: 14px;
+	color: #654d36;
+	text-decoration: none;
+	}
+	
+#submenu li a:hover {
+	color: #648114;
+	text-decoration: none;
+	}
+	
+
+#submenu li h3 {
+	font-size: 18px;
+	color: #648114;
+	}
+
+
+
+	
+	
+	
+	
+	
+	
+/*---------------------------------------------------------------------------- [ FOOTER AREA ] ---*/
+	
+
+#footerContainer {
+	background: url(images/global/footerBg.png) no-repeat bottom;
+	text-align: left;
+	}
+	
+#footer {
+	margin: 0 auto;
+	width: 930px;
+	padding: 5px 0 15px 0;
+	text-align: left;
+	border-top: 1px dotted #000;
+	}
+	
+p.copyright {
+	float: left;
+	line-height: 28px;
+	padding: 10px 0 0 25px;
+	background: url(images/global/copyrightLeaf.png) no-repeat left;
+	font-size: 10px;
+	color: #544e44;
+	text-transform: uppercase;
+	}
+	
+#socialIcons {
+	text-align: right;
+	float: right;
+	padding: 10px 0 0 0;
+	}
+	
+#socialIcons li {
+	float: left;
+	line-height: 28px;
+	list-style: none;
+	padding-left: 3px;
+	}
+	
+#socialIcons li.connect {
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #544e44;
+	margin-right: 10px;
+	}
+	
+	
+/*---------------------------------------------------------------------------- [ FORM STYLE ] ---*/
+
+form div {
+	margin-bottom: 10px;
+	}
+	
+	
+input,
+textarea	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	border: 1px solid #654d36;
+	padding: 5px;
+}
+
+input#author,
+input#email,
+input#url {
+	width: 250px;
+	}
+	
+textarea#comment {
+	width: 580px;
+	font-size: 12px;
+	}
+
+input:focus,
+textarea:focus	{
+	background-color: #fff;
+}
+
+label {
+	font-size: 14px;
+	font-weight: bold;
+	color: #654d36;
+	}
+
+input.button {
+	background-color: #648114;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 5px;
+	font-weight: bold;
+}
+
+input.button:hover {
+	background-color: #000;
+}
+
+label small {
+	font-size:12px;
+}
+
+input#submit {
+	background-color: #648114;
+	color: #fff;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 5px;
+	font-weight: bold;
+}
+
+input#submit:hover {
+	background-color: #000;
+}
+
+	
+
+	
+	
+	

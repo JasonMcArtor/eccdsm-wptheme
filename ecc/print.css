@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* EVANGELICAL COVENANT CHURCH PRINT STYLES */
+
+
+#sidebar, #footer, #header, #featureContainer {
+	display: none;
+	}
+	
+#print-logo {
+	display: block;
+	margin-bottom: 30px;
+	}

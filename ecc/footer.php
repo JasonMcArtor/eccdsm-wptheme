@@ -5,7 +5,7 @@
 
 <p class="copyright">Evangelical Covenant Church<br/>&copy; eccdsm.org.  All Rights Reserved.</p>
 
-<p class="info">2625 Hubbell Avenue</br>Des Moines, IA  50317<br/>515.266.1732 - <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'o'+'f'+'&'+'#'+'1'+
+<p class="info"><a href="https://maps.google.com/maps?q=2625+Hubbell+Ave,+Des+Moines,+IA&hl=en&t=h&hnear=2625+Hubbell+Ave,+Des+Moines,+Polk,+Iowa+50317&z=17">2625 Hubbell Avenue</br>Des Moines, IA  50317</a><br/>515.266.1732 - <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'a'+'i'+'l'+'t'+'o'+'&'+'#'+'5'+'8'+';'+'o'+'f'+'&'+'#'+'1'+
 '0'+'2'+';'+'i'+'&'+'#'+'3'+'7'+';'+'6'+'3'+'%'+'6'+'5'+'&'+'#'+'6'+'4'+';'+'e'+'&'+'#'+'9'+'9'+';'+
 'c'+'%'+'6'+'4'+'%'+'7'+'3'+'m'+'&'+'#'+'4'+'6'+';'+'%'+'6'+'F'+'r'+'g'+"'"+'>'+'o'+'&'+'#'+'1'+'0'+
 '2'+';'+'f'+'i'+'c'+'&'+'#'+'1'+'0'+'1'+';'+'&'+'#'+'6'+'4'+';'+'&'+'#'+'1'+'0'+'1'+';'+'c'+'c'+'&'+

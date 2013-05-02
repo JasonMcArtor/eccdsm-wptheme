@@ -1,9 +1,7 @@
 <!--FOOTER-->
-<div id="footerContainer">	
+<div id="footerContainer">
 
 <div id="footer">
-
-<div class="row">
 
 <p class="copyright">Evangelical Covenant Church<br/>&copy; eccdsm.org.  All Rights Reserved.</p>
 
@@ -15,31 +13,29 @@
 '<'+'/'+'a'+'>');</script></p>
 
 <p class="info">Sunday Services</br>Blended – 9:00 a.m.<br />Contemporary – 10:45 a.m.</p>
-</div><!--/row-->
-
-<div class="clear"></div>
-
-<div class="row">
-
-<ul class="contact">
-	<li>See something wrong or need something posted on our website?<br />
-Please let us know at <a href="mailto:support@eccdsm.org">support@eccdsm.org</a></li>
-</ul>
 
 <ul id="socialIcons">
     <li><a href="http://www.facebook.com/eccdsm"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/socialIcons/FaceBook.png" alt="Facebook" name="Facebook" width="27" height="27" border="0" id="Facebook" /></a></li>
     <li><a href="http://twitter.com/ECCDSM"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/socialIcons/Twitter.png" alt="Twitter" name="Twitter" width="27" height="27" border="0" id="Twitter" /></a></li>
     <li><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/socialIcons/RSSFeed.png" alt="RSS Feed" name="RSS" width="26" height="26" border="0" id="RSS" /></a></li>
 </ul>
+    
 
-</div><!--/row-->
 
-
-</div><!--/footer-->
+</div>
 
 <div class="clear"></div>
-</div><!--/footerContainer-->
-</div><!--/WRAPPER-->
+</div>
+<!--/FOOTER-->
+
+
+
+
+
+
+<div class="clear"></div>
+</div>
+<!--/WRAPPER-->
 
 <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
 

@@ -451,24 +451,15 @@ cite.fn {
 #footerContainer {
 	background: url(images/global/footerBg.png) no-repeat bottom;
 	text-align: left;
-	min-height: 160px;
 	}
 	
 #footer {
-	margin: 0px !important;
-	background: url(images/global/pageBg.png) repeat-y;
 	margin: 0 auto;
-	/*width: 930px;*/
-	padding: 0px 20px;
+	width: 930px;
+	padding: 5px 0 15px 0;
 	text-align: left;
-	/*border-top: 1px dotted #000;*/
+	border-top: 1px dotted #000;
 	}
-
-.row {
-/*background-color: #c0ffee;*/
-margin: 0 0 10px 0;
-min-height: 50px;
-}
 	
 p.copyright {
 	float: left;
@@ -478,15 +469,6 @@ p.copyright {
 	font-size: 9px;
 	color: #544e44;
 	}
-
-.contact, .contact ul, .contact li {
-	float: left;
-	line-height: 14px;
-	padding: 10px 0 0 25px;
-	font-size: 9px;
-	color: #544e44;
-	list-style: none;
-	}	
 
 p.info {
 	float: left;

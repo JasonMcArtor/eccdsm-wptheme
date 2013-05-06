@@ -19,19 +19,11 @@
     <li><a href="http://twitter.com/ECCDSM"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/socialIcons/Twitter.png" alt="Twitter" name="Twitter" width="27" height="27" border="0" id="Twitter" /></a></li>
     <li><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/socialIcons/RSSFeed.png" alt="RSS Feed" name="RSS" width="26" height="26" border="0" id="RSS" /></a></li>
 </ul>
-    
-
-
 </div>
 
 <div class="clear"></div>
 </div>
 <!--/FOOTER-->
-
-
-
-
-
 
 <div class="clear"></div>
 </div>
